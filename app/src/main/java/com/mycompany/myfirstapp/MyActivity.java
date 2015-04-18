@@ -50,4 +50,14 @@ public class MyActivity extends ActionBarActivity {
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
     }
+
+    public void openCompass(View view) {
+        Intent intent = new Intent(this, CompassActivity.class);
+        startActivity(intent);
+    }
+
+    public void openCompass2(View view) {
+        Intent intent = new Intent(this, CompassActivity2.class);
+        startActivity(intent);
+    }
 }
